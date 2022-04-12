@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <header className={headerStyles.header}>
             <Link to="/">
-                <img className={headerStyles.imagem} src="https://i.imgur.com/kfUR4wU.jpg" alt="header-img" />
+                <img className={headerStyles.imagem} src="https://raw.githubusercontent.com/the-akira/contentful-gatsby/master/src/images/alchemyart.jpg" alt="header-img" />
             </Link>
             <h1>
                 <Link className={headerStyles.title} to="/">
